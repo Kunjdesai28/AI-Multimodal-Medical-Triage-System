@@ -1,0 +1,40 @@
+=================================================================
+CLINICAL XGBOOST TRIAGE MODEL - HIGH PERFORMANCE REPORT
+=================================================================
+
+Dataset: Emergency Service Triage (data.csv)
+Target: KTAS_expert (5 Classes: Levels 1 to 5)
+Total Samples: 1267 | Test Samples: 254
+
+Clinical Tolerance (Within-1 Tier) Accuracy: 96.06%
+Acute High-Acuity Prioritization Accuracy:  94.09%
+Acute High-Acuity ROC-AUC:                  0.9426
+Exact 5-Tier Acuity Accuracy:               86.61%
+Macro ROC-AUC:                              0.9605
+Macro F1-Score:                             81.46%
+Weighted F1-Score:                          86.76%
+
+Detailed Classification Report:
+                                  precision    recall  f1-score   support
+
+Level 1 (Critical Resuscitation)       1.00      0.60      0.75         5
+         Level 2 (High Emergent)       0.80      0.82      0.81        44
+       Level 3 (Moderate Urgent)       0.93      0.85      0.89        98
+              Level 4 (Low Risk)       0.89      0.92      0.90        92
+  Level 5 (Non-Urgent / Routine)       0.62      0.87      0.72        15
+
+                        accuracy                           0.87       254
+                       macro avg       0.85      0.81      0.81       254
+                    weighted avg       0.88      0.87      0.87       254
+
+Top Feature Importances:
+  Mental                   : 0.1727
+  KTAS_RN                  : 0.1713
+  Hypoxia                  : 0.1656
+  MEWS                     : 0.0491
+  Altered_Mental           : 0.0428
+  Saturation               : 0.0410
+  Shock_Index              : 0.0265
+  RR                       : 0.0245
+  SBP                      : 0.0229
+  Tachycardia              : 0.0222

@@ -1,0 +1,13 @@
+[
+  {
+    "userId": "USR-ADMIN-967F6C",
+    "institutionId": "test_apollo_clinic",
+    "name": "Test Apollo Clinic Admin",
+    "email": "testclinic@apollo.org",
+    "designation": "Medical Director",
+    "phone": "9876543210",
+    "role": "Institution Administrator",
+    "authProvider": "local",
+    "createdAt": "2026-10-04T01:36:24.819115"
+  }
+]

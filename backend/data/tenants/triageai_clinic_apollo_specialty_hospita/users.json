@@ -1,0 +1,13 @@
+[
+  {
+    "userId": "USR-ADMIN-8C449A",
+    "institutionId": "apollo_specialty_hospita",
+    "name": "Apollo Specialty Hospital Navi Mumbai Admin",
+    "email": "admissions@apollonavimumbai.org",
+    "designation": "Medical Director",
+    "phone": "+91 9876543210",
+    "role": "Institution Administrator",
+    "authProvider": "local",
+    "createdAt": "2026-10-04T00:00:14.539216"
+  }
+]

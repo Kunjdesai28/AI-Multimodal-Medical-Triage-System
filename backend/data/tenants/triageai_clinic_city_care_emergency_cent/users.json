@@ -1,0 +1,13 @@
+[
+  {
+    "userId": "USR-ADMIN-21D067",
+    "institutionId": "city_care_emergency_cent",
+    "name": "City Care Emergency Center Admin",
+    "email": "city.emergency@carenetwork.org",
+    "designation": "Medical Director",
+    "phone": "9822334455",
+    "role": "Institution Administrator",
+    "authProvider": "local",
+    "createdAt": "2026-10-04T01:44:40.127652"
+  }
+]

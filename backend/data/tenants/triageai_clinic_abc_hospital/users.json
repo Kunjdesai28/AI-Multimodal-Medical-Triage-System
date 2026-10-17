@@ -1,0 +1,13 @@
+[
+  {
+    "userId": "USR-ADMIN-C604BC",
+    "institutionId": "abc_hospital",
+    "name": "ABC Hospital Admin",
+    "email": "kunjdesai28@gmail.com",
+    "designation": "Medical Director",
+    "phone": "9409529800",
+    "role": "Institution Administrator",
+    "authProvider": "local",
+    "createdAt": "2026-10-04T00:43:40.413985"
+  }
+]

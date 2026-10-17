@@ -1,0 +1,13 @@
+[
+  {
+    "userId": "USR-ADMIN-DEB792",
+    "institutionId": "live_test_hospital",
+    "name": "Live Test Hospital Admin",
+    "email": "live.test@hospital.org",
+    "designation": "Medical Director",
+    "phone": "+91 9123456780",
+    "role": "Institution Administrator",
+    "authProvider": "local",
+    "createdAt": "2026-10-04T00:02:04.801197"
+  }
+]

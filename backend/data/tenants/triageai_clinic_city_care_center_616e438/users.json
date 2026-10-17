@@ -1,0 +1,13 @@
+[
+  {
+    "userId": "USR-ADMIN-65DE7B",
+    "institutionId": "city_care_center_616e438",
+    "name": "City Care Center 616e4386 Admin",
+    "email": "metro_616e4386@citycare.org",
+    "designation": "Medical Director",
+    "phone": "+91 9876543210",
+    "role": "Institution Administrator",
+    "authProvider": "local",
+    "createdAt": "2026-10-04T00:53:11.820409"
+  }
+]

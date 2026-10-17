@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2026-10-04T01:39:27.728027",
+    "to": "metropolitan_clinic@healthcare.in",
+    "subject": "\ud83c\udfe5 Welcome to TRIAGEAI - Registration Confirmed for Metropolitan Care Clinic",
+    "hospitalName": "Metropolitan Care Clinic",
+    "status": "SENT_SIMULATED",
+    "bodySnippet": "WELCOME TO TRIAGEAI CLINICAL PORTAL\n---------------------------------------------------------\nHealthcare Organization Registration Confirmed\n\nDear Clinical Leadership & Administrative Team at Metropol..."
+  },
+  {
+    "timestamp": "2026-10-04T01:39:38.142877",
+    "to": "metropolitan_clinic@healthcare.in",
+    "subject": "\ud83c\udfe5 Welcome to TRIAGEAI - Registration Confirmed for Metropolitan Care Clinic",
+    "hospitalName": "Metropolitan Care Clinic",
+    "status": "SENT_SIMULATED",
+    "bodySnippet": "WELCOME TO TRIAGEAI CLINICAL PORTAL\n---------------------------------------------------------\nHealthcare Organization Registration Confirmed\n\nDear Clinical Leadership & Administrative Team at Metropol..."
+  },
+  {
+    "timestamp": "2026-10-04T01:40:06.082258",
+    "to": "metropolitan_clinic@healthcare.in",
+    "subject": "\ud83c\udfe5 Welcome to TRIAGEAI - Registration Confirmed for Metropolitan Care Clinic",
+    "hospitalName": "Metropolitan Care Clinic",
+    "status": "SENT_SIMULATED",
+    "bodySnippet": "WELCOME TO TRIAGEAI CLINICAL PORTAL\n---------------------------------------------------------\nHealthcare Organization Registration Confirmed\n\nDear Clinical Leadership & Administrative Team at Metropol..."
+  },
+  {
+    "timestamp": "2026-10-04T01:44:40.127652",
+    "to": "city.emergency@carenetwork.org",
+    "subject": "\ud83c\udfe5 Welcome to TRIAGEAI - Registration Confirmed for City Care Emergency Center",
+    "hospitalName": "City Care Emergency Center",
+    "status": "SENT_SIMULATED",
+    "bodySnippet": "WELCOME TO TRIAGEAI CLINICAL PORTAL\n---------------------------------------------------------\nHealthcare Organization Registration Confirmed\n\nDear Clinical Leadership & Administrative Team at City Car..."
+  },
+  {
+    "timestamp": "2026-10-04T01:59:50.031112",
+    "to": "kunjdesai28@gmail.com",
+    "subject": "\ud83c\udfe5 Welcome to TRIAGEAI - Registration Confirmed for ABC Hospital",
+    "hospitalName": "ABC Hospital",
+    "status": "SENT_SIMULATED",
+    "bodySnippet": "WELCOME TO TRIAGEAI CLINICAL PORTAL\n---------------------------------------------------------\nHealthcare Organization Registration Confirmed\n\nDear Clinical Leadership & Administrative Team at ABC Hosp..."
+  },
+  {
+    "timestamp": "2026-10-11T10:25:03.166406",
+    "to": "abc@gmail.com",
+    "subject": "\ud83c\udfe5 Welcome to TRIAGEAI - Registration Confirmed for ABC Hospital",
+    "hospitalName": "ABC Hospital",
+    "status": "SENT_SIMULATED",
+    "bodySnippet": "WELCOME TO TRIAGEAI CLINICAL PORTAL\n---------------------------------------------------------\nHealthcare Organization Registration Confirmed\n\nDear Clinical Leadership & Administrative Team at ABC Hosp..."
+  },
+  {
+    "timestamp": "2026-10-11T11:44:54.347667",
+    "to": "triage_test_verification@apollo.org",
+    "subject": "\ud83c\udfe5 Welcome to TRIAGEAI - Registration Confirmed for Apollo Emergency Center",
+    "hospitalName": "Apollo Emergency Center",
+    "status": "SENT_SIMULATED",
+    "bodySnippet": "WELCOME TO TRIAGEAI CLINICAL PORTAL\n---------------------------------------------------------\nHealthcare Organization Registration Confirmed\n\nDear Clinical Leadership & Administrative Team at Apollo E..."
+  }
+]

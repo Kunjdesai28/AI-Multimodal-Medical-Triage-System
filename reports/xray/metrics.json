@@ -1,0 +1,28 @@
+{
+  "model_name": "Chest X-ray DenseNet121 Multi-Condition Network",
+  "dataset": "NIH ChestX-ray14",
+  "split_strategy": "GroupShuffleSplit on Patient ID (Zero patient leakage)",
+  "test_images": 238,
+  "test_unique_patients": 202,
+  "macro_roc_auc": 0.5885,
+  "condition_aucs": {
+    "No Finding": 0.6415,
+    "Cardiomegaly": 0.5701,
+    "Effusion": 0.487,
+    "Pneumothorax": 0.6542,
+    "Edema": 0.7725,
+    "Infiltration": 0.6218,
+    "Pneumonia": 0.5059,
+    "Atelectasis": 0.4549
+  },
+  "conditions": [
+    "No Finding",
+    "Cardiomegaly",
+    "Effusion",
+    "Pneumothorax",
+    "Edema",
+    "Infiltration",
+    "Pneumonia",
+    "Atelectasis"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "model_name": "Clinical XGBoost Classifier",
+  "dataset": "Emergency Service Triage (data.csv)",
+  "target": "Emergency Triage Acuity (Levels 1 to 5)",
+  "test_samples": 254,
+  "accuracy": 0.8661,
+  "within_1_tier_accuracy": 0.9606,
+  "acute_triage_accuracy": 0.9409,
+  "acute_triage_auc": 0.9426,
+  "macro_precision": 0.8474,
+  "macro_recall": 0.8111,
+  "macro_f1": 0.8146,
+  "weighted_f1": 0.8676,
+  "macro_roc_auc": 0.9605,
+  "classes": [
+    {
+      "class_id": 1,
+      "label": "Level 1 (Critical Resuscitation)",
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.75,
+      "support": 5
+    },
+    {
+      "class_id": 2,
+      "label": "Level 2 (High Emergent)",
+      "precision": 0.8,
+      "recall": 0.8182,
+      "f1": 0.809,
+      "support": 44
+    },
+    {
+      "class_id": 3,
+      "label": "Level 3 (Moderate Urgent)",
+      "precision": 0.9326,
+      "recall": 0.8469,
+      "f1": 0.8877,
+      "support": 98
+    },
+    {
+      "class_id": 4,
+      "label": "Level 4 (Low Risk)",
+      "precision": 0.8854,
+      "recall": 0.9239,
+      "f1": 0.9043,
+      "support": 92
+    },
+    {
+      "class_id": 5,
+      "label": "Level 5 (Non-Urgent / Routine)",
+      "precision": 0.619,
+      "recall": 0.8667,
+      "f1": 0.7222,
+      "support": 15
+    }
+  ],
+  "confusion_matrix": [
+    [
+      3,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      36,
+      4,
+      3,
+      1
+    ],
+    [
+      0,
+      5,
+      83,
+      6,
+      4
+    ],
+    [
+      0,
+      2,
+      2,
+      85,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      13
+    ]
+  ],
+  "feature_importances": [
+    {
+      "feature": "Mental",
+      "importance": 0.1727
+    },
+    {
+      "feature": "KTAS_RN",
+      "importance": 0.1713
+    },
+    {
+      "feature": "Hypoxia",
+      "importance": 0.1656
+    },
+    {
+      "feature": "MEWS",
+      "importance": 0.0491
+    },
+    {
+      "feature": "Altered_Mental",
+      "importance": 0.0428
+    },
+    {
+      "feature": "Saturation",
+      "importance": 0.041
+    },
+    {
+      "feature": "Shock_Index",
+      "importance": 0.0265
+    },
+    {
+      "feature": "RR",
+      "importance": 0.0245
+    },
+    {
+      "feature": "SBP",
+      "importance": 0.0229
+    },
+    {
+      "feature": "Tachycardia",
+      "importance": 0.0222
+    },
+    {
+      "feature": "NRS_pain",
+      "importance": 0.0218
+    },
+    {
+      "feature": "Saturation_Missing",
+      "importance": 0.0216
+    },
+    {
+      "feature": "Sex",
+      "importance": 0.0194
+    },
+    {
+      "feature": "Pain",
+      "importance": 0.0191
+    },
+    {
+      "feature": "Arrival mode",
+      "importance": 0.0171
+    },
+    {
+      "feature": "HR",
+      "importance": 0.0171
+    },
+    {
+      "feature": "Age",
+      "importance": 0.017
+    },
+    {
+      "feature": "MAP",
+      "importance": 0.0163
+    },
+    {
+      "feature": "Age_Shock_Index",
+      "importance": 0.0161
+    },
+    {
+      "feature": "Injury",
+      "importance": 0.0148
+    },
+    {
+      "feature": "Modified_Shock_Index",
+      "importance": 0.0146
+    },
+    {
+      "feature": "BT",
+      "importance": 0.0146
+    },
+    {
+      "feature": "Pulse_Pressure",
+      "importance": 0.0121
+    },
+    {
+      "feature": "Hypotension",
+      "importance": 0.0112
+    },
+    {
+      "feature": "Severe_Pain",
+      "importance": 0.0102
+    },
+    {
+      "feature": "DBP",
+      "importance": 0.0092
+    },
+    {
+      "feature": "Patients number per hour",
+      "importance": 0.0092
+    }
+  ]
+}

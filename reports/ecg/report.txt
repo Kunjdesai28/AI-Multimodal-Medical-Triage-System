@@ -1,0 +1,25 @@
+=================================================================
+ECG 1D CNN MODEL - HIGH ACCURACY EVALUATION REPORT
+=================================================================
+
+Dataset: MIT-BIH Arrhythmia Database (PhysioNet)
+Architecture: 4-Stage Conv1D + BatchNorm + Adaptive Pooling + Latent Projection (32-d)
+Test Samples: 21892 beats
+
+Overall Accuracy: 97.87%
+Macro Precision:  89.58%
+Macro Recall:     88.58%
+Macro F1-Score:   88.87%
+Weighted F1-Score:97.82%
+
+                                      precision    recall  f1-score   support
+
+                   Normal Rhythm (N)       0.99      0.99      0.99     18118
+        Supraventricular Ectopic (S)       0.82      0.68      0.74       556
+       Ventricular Ectopic / PVC (V)       0.96      0.94      0.95      1448
+                     Fusion Beat (F)       0.73      0.83      0.78       162
+Unknown / Paced / Unclassifiable (Q)       0.99      0.99      0.99      1608
+
+                            accuracy                           0.98     21892
+                           macro avg       0.90      0.89      0.89     21892
+                        weighted avg       0.98      0.98      0.98     21892

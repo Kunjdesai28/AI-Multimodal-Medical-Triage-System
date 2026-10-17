@@ -1,0 +1,89 @@
+{
+  "model_name": "ECG 1D Convolutional Neural Network",
+  "dataset": "MIT-BIH Arrhythmia Database (PhysioNet)",
+  "test_samples": 21892,
+  "accuracy": 0.9787,
+  "macro_precision": 0.8958,
+  "macro_recall": 0.8858,
+  "macro_f1": 0.8887,
+  "weighted_f1": 0.9782,
+  "classes": [
+    {
+      "class_id": 0,
+      "label": "Normal Rhythm (N)",
+      "precision": 0.986,
+      "recall": 0.9917,
+      "f1": 0.9888,
+      "support": 18118
+    },
+    {
+      "class_id": 1,
+      "label": "Supraventricular Ectopic (S)",
+      "precision": 0.82,
+      "recall": 0.6799,
+      "f1": 0.7434,
+      "support": 556
+    },
+    {
+      "class_id": 2,
+      "label": "Ventricular Ectopic / PVC (V)",
+      "precision": 0.9603,
+      "recall": 0.9351,
+      "f1": 0.9475,
+      "support": 1448
+    },
+    {
+      "class_id": 3,
+      "label": "Fusion Beat (F)",
+      "precision": 0.7258,
+      "recall": 0.8333,
+      "f1": 0.7759,
+      "support": 162
+    },
+    {
+      "class_id": 4,
+      "label": "Unknown / Paced / Unclassifiable (Q)",
+      "precision": 0.987,
+      "recall": 0.9888,
+      "f1": 0.9879,
+      "support": 1608
+    }
+  ],
+  "confusion_matrix": [
+    [
+      17968,
+      74,
+      42,
+      17,
+      17
+    ],
+    [
+      168,
+      378,
+      3,
+      6,
+      1
+    ],
+    [
+      57,
+      6,
+      1354,
+      28,
+      3
+    ],
+    [
+      17,
+      1,
+      9,
+      135,
+      0
+    ],
+    [
+      14,
+      2,
+      2,
+      0,
+      1590
+    ]
+  ]
+}

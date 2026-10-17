@@ -1,0 +1,117 @@
+{
+  "PAT-4092": {
+    "patient_id": "PAT-4092",
+    "patient_name": "Emily Watson",
+    "trajectory": [
+      {
+        "observation_id": "OBS-D3001B",
+        "assessment_id": "ASM-A3960077",
+        "timestamp": "2026-10-01 22:39:04",
+        "risk_score": 40.7,
+        "priority": "MODERATE",
+        "priority_color": "amber",
+        "vitals_summary": {
+          "hr": 72.0,
+          "sbp": 128.0,
+          "spo2": 99.0,
+          "shock_index": 0.56
+        },
+        "modalities_count": 4,
+        "delta_risk": 0.0,
+        "delta_direction": "initial"
+      }
+    ]
+  },
+  "PAT-TEST-4": {
+    "patient_id": "PAT-TEST-4",
+    "patient_name": "Emily Watson",
+    "trajectory": [
+      {
+        "observation_id": "OBS-4600A5",
+        "assessment_id": "ASM-BF1BD62C",
+        "timestamp": "2026-10-01 22:46:36",
+        "risk_score": 26.0,
+        "priority": "LESS_URGENT",
+        "priority_color": "blue",
+        "vitals_summary": {
+          "hr": 72.0,
+          "sbp": 120.0,
+          "spo2": 99.0,
+          "shock_index": 0.6
+        },
+        "modalities_count": 2,
+        "delta_risk": 0.0,
+        "delta_direction": "initial"
+      }
+    ]
+  },
+  "PAT-5561": {
+    "patient_id": "PAT-5561",
+    "patient_name": "Emily Watson",
+    "trajectory": [
+      {
+        "observation_id": "OBS-1DB2C0",
+        "assessment_id": "ASM-8B3BE1DA",
+        "timestamp": "2026-10-01 22:49:24",
+        "risk_score": 26.0,
+        "priority": "LESS_URGENT",
+        "priority_color": "blue",
+        "vitals_summary": {
+          "hr": 72.0,
+          "sbp": 120.0,
+          "spo2": 99.0,
+          "shock_index": 0.6
+        },
+        "modalities_count": 2,
+        "delta_risk": 0.0,
+        "delta_direction": "initial"
+      }
+    ]
+  },
+  "PAT-APOLLO-1790878255": {
+    "patient_id": "PAT-APOLLO-1790878255",
+    "patient_name": "Apollo Patient One",
+    "trajectory": [
+      {
+        "observation_id": "OBS-7B3218",
+        "assessment_id": "ASM-8AAF43A5",
+        "timestamp": "2026-10-01 23:40:55",
+        "risk_score": 82.0,
+        "priority": "CRITICAL",
+        "priority_color": "red",
+        "vitals_summary": {
+          "hr": 115.0,
+          "sbp": 90.0,
+          "spo2": 93.0,
+          "shock_index": 1.28
+        },
+        "modalities_count": 2,
+        "delta_risk": 0.0,
+        "delta_direction": "initial"
+      }
+    ]
+  },
+  "PAT-CEDARS-1790878255": {
+    "patient_id": "PAT-CEDARS-1790878255",
+    "patient_name": "Cedars Patient Two",
+    "trajectory": [
+      {
+        "observation_id": "OBS-EC1EEF",
+        "assessment_id": "ASM-5ED0142E",
+        "timestamp": "2026-10-01 23:40:55",
+        "risk_score": 8.5,
+        "priority": "NON_URGENT",
+        "priority_color": "green",
+        "vitals_summary": {
+          "hr": 70.0,
+          "sbp": 118.0,
+          "spo2": 99.0,
+          "shock_index": 0.59
+        },
+        "modalities_count": 2,
+        "delta_risk": 0.0,
+        "delta_direction": "initial"
+      }
+    ]
+  }
+}

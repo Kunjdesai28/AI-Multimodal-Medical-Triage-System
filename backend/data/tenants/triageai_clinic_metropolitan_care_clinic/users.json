@@ -1,0 +1,13 @@
+[
+  {
+    "userId": "USR-ADMIN-0B0FB5",
+    "institutionId": "metropolitan_care_clinic",
+    "name": "Metropolitan Care Clinic Admin",
+    "email": "metropolitan_clinic@healthcare.in",
+    "designation": "Medical Director",
+    "phone": "9876543210",
+    "role": "Institution Administrator",
+    "authProvider": "local",
+    "createdAt": "2026-10-04T01:39:27.728027"
+  }
+]

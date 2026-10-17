@@ -1,0 +1,13 @@
+[
+  {
+    "userId": "USR-ADMIN-B3A7C2",
+    "institutionId": "care_diagnostic_center_p",
+    "name": "Care Diagnostic Center Pune Admin",
+    "email": "care.pune@carediagnostics.in",
+    "designation": "Medical Director",
+    "phone": "020 25678901",
+    "role": "Institution Administrator",
+    "authProvider": "local",
+    "createdAt": "2026-10-04T00:00:14.797367"
+  }
+]

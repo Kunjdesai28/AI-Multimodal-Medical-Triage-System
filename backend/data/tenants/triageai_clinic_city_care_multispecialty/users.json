@@ -1,0 +1,13 @@
+[
+  {
+    "userId": "USR-ADMIN-374831",
+    "institutionId": "city_care_multispecialty",
+    "name": "City Care MultiSpecialty Clinic Admin",
+    "email": "desk@citycareclinic.in",
+    "designation": "Medical Director",
+    "phone": "+91 9888877777",
+    "role": "Institution Administrator",
+    "authProvider": "local",
+    "createdAt": "2026-10-04T00:42:29.640390"
+  }
+]

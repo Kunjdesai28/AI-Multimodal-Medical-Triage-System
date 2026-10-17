@@ -1,0 +1,20 @@
+============================================================
+CHEST X-RAY DENSENET121 - EVALUATION REPORT
+============================================================
+
+Dataset: NIH ChestX-ray14
+Architecture: DenseNet-121 + Latent Projection (64-d) + Multi-Condition Head
+Split Strategy: GroupShuffleSplit on Patient ID (Zero Patient Leakage)
+Test Images: 238 from 202 distinct patients
+
+Macro ROC-AUC: 0.5885
+
+Per-Condition ROC-AUC Scores:
+  No Finding          : 0.6415
+  Cardiomegaly        : 0.5701
+  Effusion            : 0.4870
+  Pneumothorax        : 0.6542
+  Edema               : 0.7725
+  Infiltration        : 0.6218
+  Pneumonia           : 0.5059
+  Atelectasis         : 0.4549
